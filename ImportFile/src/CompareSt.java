@@ -19,9 +19,10 @@ public class CompareSt {
 		//System.out.println("당신이 입력한 문자는 "+userStr+" 입니다.");
 
 		BufferedReader b = new BufferedReader(new FileReader("c:/lotto.txt"));
-
-
 		String line;
+		line = b.readLine();
+		System.out.println(line);
+		
 		boolean tf = false;
 		int i = 1;
 		while ( (line = b.readLine()) != null ) 			  
