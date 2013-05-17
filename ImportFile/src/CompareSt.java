@@ -21,7 +21,7 @@ public class CompareSt {
 		BufferedReader b = new BufferedReader(new FileReader("c:/lotto.txt"));
 		String line;
 		line = b.readLine();
-		System.out.println(line);
+		System.out.println("test bufferReader Lotto.txt" + line);
 		
 		boolean tf = false;
 		int i = 1;
