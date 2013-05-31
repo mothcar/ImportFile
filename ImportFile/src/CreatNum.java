@@ -7,7 +7,7 @@ public class CreatNum {
 	//int k = ;
 
 	//1. 난수를 1~45사이의 난수를 발생시켜서 배열에 저장메소드
-	public String createLottoNo(){
+	public int[] createLottoNo(){
 
 		//int cnt=0;
 		while(cnt < 6){
@@ -32,7 +32,7 @@ public class CreatNum {
 			}
 		}
 		String str = Arrays.toString(lotto);
-		return str;
+		return lotto;
 		//String st = lotto.toString();
 		//System.out.println(st);
 		//System.out.println(Arrays.toString(lotto));
